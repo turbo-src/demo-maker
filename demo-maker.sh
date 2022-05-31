@@ -14,5 +14,4 @@ git -C repo checkout HEAD~1
 git -C repo checkout -b pullRequest2
 git -C repo checkout HEAD~1
 git -C repo checkout -b pullRequest1
-
-git
+git -c repo push --all origin
